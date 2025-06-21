@@ -1,0 +1,17 @@
+h1{
+    color:skyblue;
+}
+h1:hover{
+    font-size: 30px;
+    background-color: rgb(206, 247, 248);
+    color: rgb(86, 173, 255);
+}
+img{
+    border:solid rgb(199, 162, 114) 5px;
+    border-radius: 10%
+    box-shadow: 7px 8px 8px -4px rgba(115,115,115,1);
+-webkit-box-shadow: 7px 8px 8px -4px rgba(115,115,115,1);
+-moz-box-shadow: 7px 8px 8px -4px rgba(115,115,115,1);
+    /*dotted dashed double*/
+    /*groove */
+}
