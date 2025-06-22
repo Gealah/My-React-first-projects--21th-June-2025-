@@ -65,10 +65,10 @@ export default function Bmi() {
         setBmi(bmiValue.toFixed(2));
     }
 
-    // Custom cursor style
+    // Custom cursor style updated to point 45 degrees to the upper left
     const customCursorStyle = `
         * {
-            cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" style="font-size: 24px;"><text y="24" fill="skyblue">➤</text></svg>') 16 0, auto;
+            cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><path d="M2,2 L26,16 L2,30 L8,16 Z" fill="skyblue" transform="rotate(-135 16 16)"/></svg>') 0 0, auto;
         }
     `;
 
